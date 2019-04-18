@@ -1,0 +1,261 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+*{
+  box-sizing:border-box;
+  margin:0px;
+  padding:0px;
+}
+
+html,body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height:1rem;
+  scroll-behavior: smooth;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  line-height: 1.6em;}
+h1,h2{
+  padding-bottom:20px;
+}
+
+
+#navbar{
+  background:#333;
+  color:#fff;
+  /* overflow: auto; */
+  position:fixed;
+  z-index: 1;
+  width:100%;
+  display:flex;
+}
+
+.container{
+  max-width:960px;
+  margin:auto;
+  
+}
+
+#navbar .logo a{
+  font-family:'Nunito' sans-serif;
+  padding-left:20px;
+}
+
+#navbar .my-logo{
+  display:block;
+  float:left;
+  width:90px;
+  padding-top:7px;
+  padding-right:0px;
+}
+
+#navbar a{
+  color:#fff;
+}
+
+#navbar .logo{
+  float:left;
+  padding-top:20px;
+}
+
+#navbar ul{
+  list-style:none;
+  float:right;
+}
+
+#navbar ul li{
+  float:left;
+}
+
+#navbar ul li a{
+  display:block;
+  font-size:18px;
+  padding: 20px 25px; 
+  color:#fff;
+  text-align:center;
+}
+
+#navbar ul li a:hover{
+  border-radius: 10px;
+  background:#444;
+  color:#f7c08a;
+}
+
+#navbar .current{
+  border-radius: 10px;
+  background:#444;
+  color:#f7c08a;
+}
+
+
+/* showcase */
+
+#showcase{
+  background: url('../showcase.jpg') no-repeat center center/cover;
+  margin:0px;
+  overflow: auto;
+  height: 900px;
+}
+
+ #showcase img{
+  display:block;
+   float:left;
+   border-radius: 50%; 
+   }
+
+#showcase .about{
+   float:right; 
+  width:600px;
+  line-height:3rem;
+  font-size:24px;
+  font-family:'Nunito';
+  padding-left:10px;
+} 
+
+#showcase .person-card{
+  display:block;
+  max-width:830px;
+  padding-left:10px;
+  overflow:auto;
+  margin: 110px auto;
+  border:1px solid brown;
+  border-radius: 10px;
+  background-color:#f7c08a;
+  height:200px;
+  opacity: 0.9;
+}
+
+#showcase .wisdom{
+  text-align:center;
+  font-size:45px;
+  color:#f50c0cef;
+  font-weight: bold;
+  font-family:'Nunito' ,sans-serif;
+  padding-bottom:50px;
+}
+ 
+.btn{
+  background-color:#333;
+  color:#fff;
+  width:200px;
+  text-align:center;
+  padding:25px 12px;
+  display:block;
+  margin:auto;
+  font-size:20px;
+  font-family:'Nunito',sans-serif;
+}
+
+.btn:hover{
+  color:#fff;
+  background:#db7916;
+}
+
+
+/* section */
+.boxes{
+  background: #333;
+  height:400px;
+  overflow:auto;
+}
+
+
+.boxes img{
+  display:block;
+  float:left;
+}
+
+/* contact me */
+.contact{
+  overflow:auto;
+  background:#df292d;
+  height:500px;
+}
+
+.contact h2{
+text-align:center;
+font-size:40px;
+margin:30px;
+}
+
+hr{
+  margin-bottom:20px;
+}
+
+.contact textarea{
+  display:block;
+  border-radius: 5px;
+  font-size:16px;
+}
+
+.contact button{
+  margin-top:50px;
+}
+
+.contact .Email{
+  margin-top:45px;
+}
+
+.contact .person-info{
+  float:left;
+  width:50%;
+}
+
+.contact .person-message{
+  float:right;
+  width:50%;
+}
+
+.contact label{
+  display:block;
+  font-size:24px;
+  color:#fff;
+  margin-bottom:30px;
+}
+
+.contact input{
+  width:400px;
+  border-radius:5px;
+  padding:10px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:20px;
+}
+
+footer{
+  background:#333;
+  text-align:center;
+  height:300px;
+
+  overflow:auto;
+  margin:30px;
+}
+
+
+
+
+
+footer p{
+  margin-top:70px;
+  font-size:25px;
+    font-family:Montserrat;
+  color:#fff;
+}
+
+
+footer .a{margin-top:50px;}
+footer a{
+  color:#d15252;
+  font-size:26px;
+  margin:60px;
+
+}
+
+.btn-contact{
+  display:inline;
+}
+
